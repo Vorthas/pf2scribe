@@ -106,6 +106,10 @@ If this feature is used, images will be recompressed again.  The trade-off here 
 
 If you have ImageMagick installed, or want to have it installed, the use of `tools/scripts/resize_image.sh` uses ImageMagick (prompting to install on an Arch-based distro using pacman if it is not already installed) to help resize images to the maximum 644px in width recommended for clearness when being rendered in the PDF.
 
+## Showcase Image
+
+![Showcase](docs/showcase.png)
+
 ## AI Disclosure
 
 This project was built using Claude Code.  However, I am a C++ programmer by profession so I am able to read and understand the code that Claude generates.  I aim to extensively test the project using actual example markdown files I've used on the scribe.pf2.tools website, including one extremely large 10k+ line document complete with 200+ images embedded, to stress test this project.
