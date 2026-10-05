@@ -1,0 +1,31 @@
+# Build output and editor caches
+build/
+build-*/
+.cache/
+compile_commands.json
+
+# PDFs: exports and test renders
+*.pdf
+
+# Fonts: most of them can't be redistributed (see fonts/README.txt for
+# where to get them). Only the README and free directory are shared;
+# font files stay local.
+fonts/*
+!fonts/README.txt
+!fonts/free
+
+# Samples: only the original showcase is shared. Anything else put here
+# (documents, images) stays local.
+samples/*
+!samples/showcase.md
+!samples/showcase-drake.png
+
+# Screenshots and other images at the project root
+/*.png
+/*.jpg
+
+# Personal notes and scripts
+tools/Todo.txt
+tools/*-Todo.txt
+tools/Optimizations.txt
+tools/scripts/BookmarksScript/
